@@ -1,4 +1,4 @@
-   body {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,21 +10,32 @@ nav {background-color: #8f0404cb;
     width: 100%;
     position: static;
     overflow: hidden;
-    }
+    margin: 0;
+}
+        
 
 nav img{
     float: left;
     display: block;
-    width: 120px;
+    width: 100px;
 }
 
 nav a{
     color: white;
     display: block;
-    padding: 32px 16px;
+    padding: 25px;
     float: left;
-    font-size: 40px;
+    font-size: 35px;
     text-decoration: none;
+}
+
+.container{
+    padding-left: 40%;
+}
+
+nav a:hover{
+background-color: white;
+color: #8f0404cb;
 }
 
 h2 {
@@ -41,7 +52,11 @@ li {
     list-style-image: url('quadrado.png');
     color: white;
     list-style-position: inherit;
-  }
+    background-color:#550303cb ;
+    width: 20%; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgb(99, 1, 1); 
+}
 
 button {
     font-size: 20px;
@@ -49,6 +64,7 @@ button {
     background-color:#8f0404cb;
     border: white;
     border-style: none;
+    border-radius: 5px;
 }
 
 button:hover{
