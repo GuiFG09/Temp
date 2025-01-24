@@ -1,0 +1,57 @@
+   body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:     rgba(10, 0, 0, 0.959);
+    height: 5000px;
+}
+
+nav {background-color: #8f0404cb;
+    width: 100%;
+    position: static;
+    overflow: hidden;
+    }
+
+nav img{
+    float: left;
+    display: block;
+    width: 120px;
+}
+
+nav a{
+    color: white;
+    display: block;
+    padding: 32px 16px;
+    float: left;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+h2 {
+    color: rgb(222, 220, 226);
+font-size: 50px;
+}
+
+div {
+    color: rgb(222, 220, 226);
+font-size:25px;
+}
+
+li {
+    list-style-image: url('quadrado.png');
+    color: white;
+    list-style-position: inherit;
+  }
+
+button {
+    font-size: 20px;
+    color: white;
+    background-color:#8f0404cb;
+    border: white;
+    border-style: none;
+}
+
+button:hover{
+    background-color:#360101cb;
+    color:#ffffff ;
+}
